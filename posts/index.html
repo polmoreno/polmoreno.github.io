@@ -1,11 +1,186 @@
-<!doctype html><html lang=en dir=auto><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>Posts | polmoreno</title><meta name=keywords content><meta name=description content="Posts - polmoreno"><meta name=author content="Pol Moreno"><link rel=canonical href=https://polmoreno.github.io/posts/><link crossorigin=anonymous href=../assets/css/stylesheet.bc1149f4a72aa4858d3a9f71462f75e5884ffe8073ea9d6d5761d5663d651e20.css integrity="sha256-vBFJ9KcqpIWNOp9xRi915YhP/oBz6p1tV2HVZj1lHiA=" rel="preload stylesheet" as=style><link rel=icon href=https://polmoreno.github.io/favicon.ico><link rel=icon type=image/png sizes=16x16 href=https://polmoreno.github.io/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=https://polmoreno.github.io/favicon-32x32.png><link rel=apple-touch-icon href=https://polmoreno.github.io/apple-touch-icon.png><link rel=mask-icon href=https://polmoreno.github.io/safari-pinned-tab.svg><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate type=application/rss+xml href=https://polmoreno.github.io/posts/index.xml><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--hljs-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style></noscript><meta property="og:title" content="Posts"><meta property="og:description" content="Security Enthusiast"><meta property="og:type" content="website"><meta property="og:url" content="https://polmoreno.github.io/posts/"><meta property="og:image" content="https://polmoreno.github.io/profilePic.jpeg"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://polmoreno.github.io/profilePic.jpeg"><meta name=twitter:title content="Posts"><meta name=twitter:description content="Security Enthusiast"><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":2,"name":"Posts","item":"https://polmoreno.github.io/posts/"}]}</script></head><body class=list id=top><script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add("dark"):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove("dark"):window.matchMedia("(prefers-color-scheme: dark)").matches&&document.body.classList.add("dark")</script><header class=header><nav class=nav><div class=logo><a href=https://polmoreno.github.io accesskey=h title="polmoreno (Alt + H)">polmoreno</a><div class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)"><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></div></div><ul id=menu><li><a href=https://polmoreno.github.io/about title="about me"><span>about me</span></a></li><li><a href=https://polmoreno.github.io/posts title=blog><span class=active>blog</span></a></li><li><a href=https://polmoreno.github.io/categories/ title=categories><span>categories</span></a></li></ul></nav></header><main class=main><header class=page-header><h1>Posts</h1></header><article class=post-entry><figure class=entry-cover><img loading=lazy srcset="https://polmoreno.github.io/posts/scan_and_reconnaissance/scan_cover_hu267ae0e51f5a17fc8eb05eb80800e52c_130038_360x0_resize_q75_box.jpg 360w ,https://polmoreno.github.io/posts/scan_and_reconnaissance/scan_cover_hu267ae0e51f5a17fc8eb05eb80800e52c_130038_480x0_resize_q75_box.jpg 480w ,https://polmoreno.github.io/posts/scan_and_reconnaissance/scan_cover_hu267ae0e51f5a17fc8eb05eb80800e52c_130038_720x0_resize_q75_box.jpg 720w ,https://polmoreno.github.io/posts/scan_and_reconnaissance/scan_cover.jpg 899w" sizes="(min-width: 768px) 720px, 100vw" src=https://polmoreno.github.io/posts/scan_and_reconnaissance/scan_cover.jpg alt width=899 height=572></figure><header class=entry-header><h2>RECONNAISSANCE AND SCAN</h2></header><div class=entry-content><p>Scanning and Reconnaissance — Getting to know the target using passive methods like researching publicly available information and network scanning.
-Once the lab is downloaded and configured correctly I’ll start by enumerating the network to know what am I working with. First of all I start by doing a cme (crackmapexec) to collect the active directory information.
-cme smb 192.168.56.0/24 In Pol where me and most of my contacts live, WhatsApp isn’t as popular as Facebook’s Messenger, an app that lacks end-to-end encryption and as a result is considerably worse privacy-wise....</p></div><footer class=entry-footer><span title='2022-10-11 00:00:00 +0000 UTC'>October 11, 2022</span>&nbsp;·&nbsp;Pol Moreno</footer><a class=entry-link aria-label="post link to RECONNAISSANCE AND SCAN" href=https://polmoreno.github.io/posts/scan_and_reconnaissance/></a></article><article class=post-entry><figure class=entry-cover><img loading=lazy srcset="https://polmoreno.github.io/posts/as-rep-roasting/asreproasting_cover_hu471e03bbe00a943b870f93ea03b8aad5_19008_360x0_resize_box_3.png 360w ,https://polmoreno.github.io/posts/as-rep-roasting/asreproasting_cover_hu471e03bbe00a943b870f93ea03b8aad5_19008_480x0_resize_box_3.png 480w ,https://polmoreno.github.io/posts/as-rep-roasting/asreproasting_cover.png 607w" sizes="(min-width: 768px) 720px, 100vw" src=https://polmoreno.github.io/posts/as-rep-roasting/asreproasting_cover.png alt width=607 height=322></figure><header class=entry-header><h2>AS-REP ROASTING</h2></header><div class=entry-content><p>TLDR; I created a small npm package that acts as a wrapper around node-fetch, and returns the same promise for the same request, until it resolves. You can visit the repo of this package here. Below, I explain my motivation, and how I tackled the issue.
-So here’s the scenario:
-You have a system that interfaces with a really slow third-party API. User Bob, needs some data, so your system performs a request to the third-party API, and waits for a response....</p></div><footer class=entry-footer><span title='2022-07-09 00:00:00 +0000 UTC'>July 9, 2022</span>&nbsp;·&nbsp;Pol Moreno</footer><a class=entry-link aria-label="post link to AS-REP ROASTING" href=https://polmoreno.github.io/posts/as-rep-roasting/></a></article><article class=post-entry><figure class=entry-cover><img loading=lazy srcset="https://polmoreno.github.io/posts/kerberoasting/kerberoasting_cover_hu5970efa1adfb0617dd619e9046ebf215_65291_360x0_resize_box_3.png 360w ,https://polmoreno.github.io/posts/kerberoasting/kerberoasting_cover_hu5970efa1adfb0617dd619e9046ebf215_65291_480x0_resize_box_3.png 480w ,https://polmoreno.github.io/posts/kerberoasting/kerberoasting_cover_hu5970efa1adfb0617dd619e9046ebf215_65291_720x0_resize_box_3.png 720w ,https://polmoreno.github.io/posts/kerberoasting/kerberoasting_cover_hu5970efa1adfb0617dd619e9046ebf215_65291_1080x0_resize_box_3.png 1080w ,https://polmoreno.github.io/posts/kerberoasting/kerberoasting_cover.png 1197w" sizes="(min-width: 768px) 720px, 100vw" src=https://polmoreno.github.io/posts/kerberoasting/kerberoasting_cover.png alt width=1197 height=597></figure><header class=entry-header><h2>KERBEROASTING</h2></header><div class=entry-content><p>After the privacy related changes to WhatsApp, a lot of people are fleeing this popular chat application for other more privacy-aware choices. This development, made me consider Signal, again, as a chat service, but my decision to install it and try to move my contacts was not a privacy related one.
-In Greece where me and most of my contacts live, WhatsApp isn’t as popular as Facebook’s Messenger, an app that lacks end-to-end encryption and as a result is considerably worse privacy-wise....</p></div><footer class=entry-footer><span title='2022-07-08 00:00:00 +0000 UTC'>July 8, 2022</span>&nbsp;·&nbsp;Pol Moreno</footer><a class=entry-link aria-label="post link to KERBEROASTING" href=https://polmoreno.github.io/posts/kerberoasting/></a></article></main><footer class=footer><span>&copy; 2022 <a href=https://polmoreno.github.io>polmoreno</a></span>
-<span>&#183;</span>
-<span>Powered by <a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a></span>
-<span>&#183;</span>
-<span>Theme <a href=https://git.io/hugopapermod rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)"><button class=top-link id=top-link type=button accesskey=g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg></button></a>
-<script>window.onload=function(){localStorage.getItem("menu-scroll-position")&&(document.getElementById("menu").scrollLeft=localStorage.getItem("menu-scroll-position"))},document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.replaceState(null,null,`#${t}`)})});var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")};function menu_on_scroll(){localStorage.setItem("menu-scroll-position",document.getElementById("menu").scrollLeft)}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{document.body.className.includes("dark")?(document.body.classList.remove("dark"),localStorage.setItem("pref-theme","light"),window.REMARK42.changeTheme("light")):(document.body.classList.add("dark"),localStorage.setItem("pref-theme","dark"),window.REMARK42.changeTheme("dark"))})</script></body></html>
+<!doctype html>
+<html lang=en dir=auto>
+
+<head>
+    <meta charset=utf-8>
+    <meta http-equiv=x-ua-compatible content="IE=edge">
+    <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <meta name=robots content="index, follow">
+    <title>Posts | polmoreno</title>
+    <meta name=keywords content>
+    <meta name=description content="Posts - polmoreno">
+    <meta name=author content="Pol Moreno">
+    <link rel=canonical href=https://polmoreno.github.io/posts />
+    <link crossorigin=anonymous
+        href=../assets/css/stylesheet.bc1149f4a72aa4858d3a9f71462f75e5884ffe8073ea9d6d5761d5663d651e20.css
+        integrity="sha256-vBFJ9KcqpIWNOp9xRi915YhP/oBz6p1tV2HVZj1lHiA=" rel="preload stylesheet" as=style>
+    <link rel=icon href=https://polmoreno.github.io/favicon.ico>
+    <link rel=icon type=image/png sizes=16x16 href=https://polmoreno.github.io/favicon-16x16.png>
+    <link rel=icon type=image/png sizes=32x32 href=https://polmoreno.github.io/favicon-32x32.png>
+    <link rel=apple-touch-icon href=https://polmoreno.github.io/apple-touch-icon.png>
+    <link rel=mask-icon href=https://polmoreno.github.io/safari-pinned-tab.svg>
+    <meta name=theme-color content="#2e2e33">
+    <meta name=msapplication-TileColor content="#2e2e33">
+    <link rel=alternate type=application/rss+xml href=https://polmoreno.github.io/posts/index.xml><noscript>
+        <style>
+            #theme-toggle,
+            .top-link {
+                display: none
+            }
+        </style>
+        <style>
+            @media(prefers-color-scheme:dark) {
+                :root {
+                    --theme: rgb(29, 30, 32);
+                    --entry: rgb(46, 46, 51);
+                    --primary: rgb(218, 218, 219);
+                    --secondary: rgb(155, 156, 157);
+                    --tertiary: rgb(65, 66, 68);
+                    --content: rgb(196, 196, 197);
+                    --hljs-bg: rgb(46, 46, 51);
+                    --code-bg: rgb(55, 56, 62);
+                    --border: rgb(51, 51, 51)
+                }
+
+                .list {
+                    background: var(--theme)
+                }
+
+                .list:not(.dark)::-webkit-scrollbar-track {
+                    background: 0 0
+                }
+
+                .list:not(.dark)::-webkit-scrollbar-thumb {
+                    border-color: var(--theme)
+                }
+            }
+        </style>
+    </noscript>
+    <meta property="og:title" content="Posts">
+    <meta property="og:description" content="Security Enthusiast">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://polmoreno.github.io/posts/">
+    <meta property="og:image" content="https://polmoreno.github.io/profilePic.jpeg">
+    <meta name=twitter:card content="summary_large_image">
+    <meta name=twitter:image content="https://polmoreno.github.io/profilePic.jpeg">
+    <meta name=twitter:title content="Posts">
+    <meta name=twitter:description content="Security Enthusiast">
+    <script
+        type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":2,"name":"Posts","item":"https://polmoreno.github.io/posts/"}]}</script>
+</head>
+
+<body class=list id=top>
+    <script>localStorage.getItem("pref-theme") === "dark" ? document.body.classList.add("dark") : localStorage.getItem("pref-theme") === "light" ? document.body.classList.remove("dark") : window.matchMedia("(prefers-color-scheme: dark)").matches && document.body.classList.add("dark")</script>
+    <header class=header>
+        <nav class=nav>
+            <div class=logo><a href=https://polmoreno.github.io accesskey=h title="polmoreno (Alt + H)">polmoreno</a>
+                <div class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)"><svg id="moon"
+                            xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24" fill="none"
+                            stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" />
+                        </svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18"
+                            viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="5" />
+                            <line x1="12" y1="1" x2="12" y2="3" />
+                            <line x1="12" y1="21" x2="12" y2="23" />
+                            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+                            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+                            <line x1="1" y1="12" x2="3" y2="12" />
+                            <line x1="21" y1="12" x2="23" y2="12" />
+                            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+                            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+                        </svg></button></div>
+            </div>
+            <ul id=menu>
+                <li><a href=https://polmoreno.github.io/about title="about me"><span>about me</span></a></li>
+                <li><a href=https://polmoreno.github.io/posts title=blog><span class=active>blog</span></a></li>
+                <li><a href=https://polmoreno.github.io/categories/ title=categories><span>categories</span></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class=main>
+        <header class=page-header>
+            <h1>Posts</h1>
+        </header>
+        <article class=post-entry>
+            <figure class=entry-cover><img loading=lazy
+                    //srcset="https://polmoreno.github.io/posts/scan_and_reconnaissance/scan_cover_hu267ae0e51f5a17fc8eb05eb80800e52c_130038_360x0_resize_q75_box.jpg 360w ,https://polmoreno.github.io/posts/scan_and_reconnaissance/scan_cover_hu267ae0e51f5a17fc8eb05eb80800e52c_130038_480x0_resize_q75_box.jpg 480w ,https://polmoreno.github.io/posts/scan_and_reconnaissance/scan_cover_hu267ae0e51f5a17fc8eb05eb80800e52c_130038_720x0_resize_q75_box.jpg 720w ,https://polmoreno.github.io/posts/scan_and_reconnaissance/scan_cover.jpg 899w"
+                    sizes="(min-width: 768px) 720px, 100vw"
+                    src=https://polmoreno.github.io/posts/scan_and_reconnaissance/scan_cover.jpg alt width=899
+                    height=572></figure>
+            <header class=entry-header>
+                <h2>RECONNAISSANCE AND SCAN</h2>
+            </header>
+            <div class=entry-content>
+                <p>Scanning and Reconnaissance — Getting to know the target using passive methods like researching
+                    publicly available information and network scanning.
+                    Once the lab is downloaded and configured correctly I’ll start by enumerating the network to know
+                    what am I working with. First of all I start by doing a cme (crackmapexec) to collect the active
+                    directory information.
+                    cme smb 192.168.56.0/24 In Pol where me and most of my contacts live, WhatsApp isn’t as popular as
+                    Facebook’s Messenger, an app that lacks end-to-end encryption and as a result is considerably worse
+                    privacy-wise....</p>
+            </div>
+            <footer class=entry-footer><span title='2022-10-11 00:00:00 +0000 UTC'>October 11,
+                    2022</span>&nbsp;·&nbsp;Pol Moreno</footer><a class=entry-link
+                aria-label="post link to RECONNAISSANCE AND SCAN"
+                href=https://polmoreno.github.io/posts/scan_and_reconnaissance /></a>
+        </article>
+        <article class=post-entry>
+            <figure class=entry-cover><img loading=lazy
+                    //srcset="https://polmoreno.github.io/posts/as-rep-roasting/asreproasting_cover_hu471e03bbe00a943b870f93ea03b8aad5_19008_360x0_resize_box_3.png 360w ,https://polmoreno.github.io/posts/as-rep-roasting/asreproasting_cover_hu471e03bbe00a943b870f93ea03b8aad5_19008_480x0_resize_box_3.png 480w ,https://polmoreno.github.io/posts/as-rep-roasting/asreproasting_cover.png 607w"
+                    sizes="(min-width: 768px) 720px, 100vw"
+                    src=https://polmoreno.github.io/posts/as-rep-roasting/asreproasting_cover.png alt width=607
+                    height=322></figure>
+            <header class=entry-header>
+                <h2>AS-REP ROASTING</h2>
+            </header>
+            <div class=entry-content>
+                <p>TLDR; I created a small npm package that acts as a wrapper around node-fetch, and returns the same
+                    promise for the same request, until it resolves. You can visit the repo of this package here. Below,
+                    I explain my motivation, and how I tackled the issue.
+                    So here’s the scenario:
+                    You have a system that interfaces with a really slow third-party API. User Bob, needs some data, so
+                    your system performs a request to the third-party API, and waits for a response....</p>
+            </div>
+            <footer class=entry-footer><span title='2022-07-09 00:00:00 +0000 UTC'>July 9, 2022</span>&nbsp;·&nbsp;Pol
+                Moreno</footer><a class=entry-link aria-label="post link to AS-REP ROASTING"
+                href=https://polmoreno.github.io/posts/as-rep-roasting /></a>
+        </article>
+        <article class=post-entry>
+            <figure class=entry-cover><img loading=lazy
+                    //srcset="https://polmoreno.github.io/posts/kerberoasting/kerberoasting_cover_hu5970efa1adfb0617dd619e9046ebf215_65291_360x0_resize_box_3.png 360w ,https://polmoreno.github.io/posts/kerberoasting/kerberoasting_cover_hu5970efa1adfb0617dd619e9046ebf215_65291_480x0_resize_box_3.png 480w ,https://polmoreno.github.io/posts/kerberoasting/kerberoasting_cover_hu5970efa1adfb0617dd619e9046ebf215_65291_720x0_resize_box_3.png 720w ,https://polmoreno.github.io/posts/kerberoasting/kerberoasting_cover_hu5970efa1adfb0617dd619e9046ebf215_65291_1080x0_resize_box_3.png 1080w ,https://polmoreno.github.io/posts/kerberoasting/kerberoasting_cover.png 1197w"
+                    sizes="(min-width: 768px) 720px, 100vw"
+                    src=https://polmoreno.github.io/posts/kerberoasting/kerberoasting_cover.png alt width=1197
+                    height=597></figure>
+            <header class=entry-header>
+                <h2>KERBEROASTING</h2>
+            </header>
+            <div class=entry-content>
+                <p>After the privacy related changes to WhatsApp, a lot of people are fleeing this popular chat
+                    application for other more privacy-aware choices. This development, made me consider Signal, again,
+                    as a chat service, but my decision to install it and try to move my contacts was not a privacy
+                    related one.
+                    In Greece where me and most of my contacts live, WhatsApp isn’t as popular as Facebook’s Messenger,
+                    an app that lacks end-to-end encryption and as a result is considerably worse privacy-wise....</p>
+            </div>
+            <footer class=entry-footer><span title='2022-07-08 00:00:00 +0000 UTC'>July 8, 2022</span>&nbsp;·&nbsp;Pol
+                Moreno</footer><a class=entry-link aria-label="post link to KERBEROASTING"
+                href=https://polmoreno.github.io/posts/kerberoasting /></a>
+        </article>
+    </main>
+    <footer class=footer><span>&copy; 2022 <a href=https://polmoreno.github.io>polmoreno</a></span>
+        <span>&#183;</span>
+        <span>Powered by <a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a></span>
+        <span>&#183;</span>
+        <span>Theme <a href=https://git.io/hugopapermod rel=noopener target=_blank>PaperMod</a></span>
+    </footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)"><button class=top-link id=top-link
+            type=button accesskey=g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentcolor">
+                <path d="M12 6H0l6-6z" />
+            </svg></button></a>
+    <script>window.onload = function () { localStorage.getItem("menu-scroll-position") && (document.getElementById("menu").scrollLeft = localStorage.getItem("menu-scroll-position")) }, document.querySelectorAll('a[href^="#"]').forEach(e => { e.addEventListener("click", function (e) { e.preventDefault(); var t = this.getAttribute("href").substr(1); window.matchMedia("(prefers-reduced-motion: reduce)").matches ? document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView() : document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({ behavior: "smooth" }), t === "top" ? history.replaceState(null, null, " ") : history.replaceState(null, null, `#${t}`) }) }); var mybutton = document.getElementById("top-link"); window.onscroll = function () { document.body.scrollTop > 800 || document.documentElement.scrollTop > 800 ? (mybutton.style.visibility = "visible", mybutton.style.opacity = "1") : (mybutton.style.visibility = "hidden", mybutton.style.opacity = "0") }; function menu_on_scroll() { localStorage.setItem("menu-scroll-position", document.getElementById("menu").scrollLeft) }</script>
+    <script>document.getElementById("theme-toggle").addEventListener("click", () => { document.body.className.includes("dark") ? (document.body.classList.remove("dark"), localStorage.setItem("pref-theme", "light"), window.REMARK42.changeTheme("light")) : (document.body.classList.add("dark"), localStorage.setItem("pref-theme", "dark"), window.REMARK42.changeTheme("dark")) })</script>
+</body>
+
+</html>
