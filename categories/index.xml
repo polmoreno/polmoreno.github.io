@@ -10,22 +10,31 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 09 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://polmoreno.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 11 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://polmoreno.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>programming</title>
-      <link>https://polmoreno.github.io/categories/programming/</link>
-      <pubDate>Sat, 09 Jul 2022 00:00:00 +0000</pubDate>
+      <title>Active Directory</title>
+      <link>https://polmoreno.github.io/categories/active-directory/</link>
+      <pubDate>Tue, 11 Oct 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://polmoreno.github.io/categories/programming/</guid>
+      <guid>https://polmoreno.github.io/categories/active-directory/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>opinions</title>
-      <link>https://polmoreno.github.io/categories/opinions/</link>
-      <pubDate>Fri, 08 Jul 2022 00:00:00 +0000</pubDate>
+      <title>GOAD</title>
+      <link>https://polmoreno.github.io/categories/goad/</link>
+      <pubDate>Tue, 11 Oct 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://polmoreno.github.io/categories/opinions/</guid>
+      <guid>https://polmoreno.github.io/categories/goad/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kerberos</title>
+      <link>https://polmoreno.github.io/categories/kerberos/</link>
+      <pubDate>Sat, 09 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://polmoreno.github.io/categories/kerberos/</guid>
       <description></description>
     </item>
     
