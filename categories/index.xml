@@ -10,11 +10,11 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://polmoreno.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://polmoreno.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Active Directory</title>
       <link>https://polmoreno.github.io/categories/active-directory/</link>
-      <pubDate>Tue, 11 Oct 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 23 Oct 2022 00:00:00 +0000</pubDate>
       
       <guid>https://polmoreno.github.io/categories/active-directory/</guid>
       <description></description>
@@ -23,7 +23,7 @@
     <item>
       <title>GOAD</title>
       <link>https://polmoreno.github.io/categories/goad/</link>
-      <pubDate>Tue, 11 Oct 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 23 Oct 2022 00:00:00 +0000</pubDate>
       
       <guid>https://polmoreno.github.io/categories/goad/</guid>
       <description></description>
@@ -32,9 +32,18 @@
     <item>
       <title>kerberos</title>
       <link>https://polmoreno.github.io/categories/kerberos/</link>
-      <pubDate>Sat, 09 Jul 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 23 Oct 2022 00:00:00 +0000</pubDate>
       
       <guid>https://polmoreno.github.io/categories/kerberos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>enum4linux</title>
+      <link>https://polmoreno.github.io/categories/enum4linux/</link>
+      <pubDate>Fri, 21 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://polmoreno.github.io/categories/enum4linux/</guid>
       <description></description>
     </item>
     
