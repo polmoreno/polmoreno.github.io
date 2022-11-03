@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>enum4linux on polmoreno</title>
+    <link>https://polmoreno.github.io/categories/enum4linux/</link>
+    <description>Recent content in enum4linux on polmoreno</description>
+    <image>
+      <url>https://polmoreno.github.io/profilePic.jpeg</url>
+      <link>https://polmoreno.github.io/profilePic.jpeg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 21 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://polmoreno.github.io/categories/enum4linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ENUMERATING USERS</title>
+      <link>https://polmoreno.github.io/posts/enumerating_users/</link>
+      <pubDate>Fri, 21 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://polmoreno.github.io/posts/enumerating_users/</guid>
+      <description>Users enumeration.</description>
+    </item>
+    
+  </channel>
+</rss>
